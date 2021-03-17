@@ -299,21 +299,21 @@ button:focus,
 /* animation color change */
 @-webkit-keyframes color-change {
   from {
-    color: #edc655;
+    fill: #edc655;
   }
 
   to {
-    color: #f76414;
+    fill: #f76414;
   }
 }
 
 @keyframes color-change {
   from {
-    color: #edc655;
+    fill: #edc655;
   }
 
   to {
-    color: #f76414;
+    fill: #f76414;
   }
 }
 

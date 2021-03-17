@@ -262,11 +262,11 @@ button:focus,
 /* animation color change */
 @keyframes color-change {
   from {
-    color: #edc655;
+    fill: #edc655;
   }
 
   to {
-    color: #f76414;
+    fill: #f76414;
   }
 }
 
