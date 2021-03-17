@@ -191,14 +191,15 @@ button:focus,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin: 0;
+    padding: 20px;
   }
 
   .grid__item {
-    background-color: lightgray;
+    background-color: #d3d3d3;
     width: auto;
     min-height: auto;
     margin: 0;
+    padding: 15px;
   }
 
   .grid__item:last-child {
