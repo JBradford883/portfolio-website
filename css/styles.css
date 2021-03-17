@@ -188,6 +188,7 @@ button:focus,
 
 @supports (display: grid) {
   .grid {
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
