@@ -195,7 +195,7 @@ button:hover, button:focus, .button:hover, .button:focus {
    margin: 0;
  }
 
-  .grid__item:lastchild {
+  .grid__item:last-child {
     grid-column: 3 / 3;
     grid-row: 1 / 3;
   }
