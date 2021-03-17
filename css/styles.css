@@ -252,10 +252,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* animation color change */
 @keyframes color-change {
   from {
-    fill: #edc655;
+    color: #edc655;
   }
   to {
-    fill: #f76414;
+    color: #f76414;
   }
 }
 
