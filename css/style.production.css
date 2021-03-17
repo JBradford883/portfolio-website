@@ -211,7 +211,6 @@ button:focus,
 
 @supports (display: grid) {
   .grid {
-    width: auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
