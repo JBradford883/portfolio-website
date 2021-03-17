@@ -6,21 +6,21 @@ Primary Color (Fire Brick Red): #B22222;
 Secondary Color (Light Coral Red): #f08080;
  */
 
- :root {
-   --primary-color: #b22222;
-   --secondary-color: #f08080;
-   --text-color: #2f4f4f;
-   --primary-font: 'Roboto',sans-serif;
-   --secondary-font: 'EB Garamond',serif;
-   --body-weight: 400;
-   --headline-weight: 700
- }
+:root {
+  --primary-color: #b22222;
+  --secondary-color: #f08080;
+  --text-color: #2f4f4f;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'EB Garamond', serif;
+  --body-weight: 400;
+  --headline-weight: 700;
+}
 
- * {
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #f5f5f5;
   font-family: var(--primary-font);
   font-weight: var(--body-weight);
@@ -54,7 +54,8 @@ a:visited {
   color: var(--secondary-color);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   cursor: pointer;
   text-decoration: none;
 }
@@ -73,26 +74,26 @@ table {
 
 .page-header {
   display: flex;
-  width:100%;
-  padding:20px;
+  width: 100%;
+  padding: 20px;
 }
 
-.page-header__item{
+.page-header__item {
   flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   flex-grow: 1;
-  text-align:right;
+  text-align: right;
 }
 
 .navigation-list {
-  list-style-type:none;
+  list-style-type: none;
 }
 
-.navigation-list li{
-  display:inline-block;
-  margin-left:15px
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .table-header {
@@ -105,7 +106,7 @@ table {
   font-weight: var(--body-weight);
 }
 
-.page-footer__item{
+.page-footer__item {
   font-family: var(--primary-font);
   font-size: 14px;
   font-weight: 700;
@@ -118,7 +119,7 @@ table {
   text-align: center;
 }
 
-.contact-item{
+.contact-item {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-weight: var(--body-weight);
@@ -155,7 +156,8 @@ table {
   text-align: center;
 }
 
-.button, button {
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -168,16 +170,21 @@ table {
   transition: 0.2s opacity;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
 
 /* start grid fallback */
+
 .grid__item {
   display: inline-block;
   width: 33%;
 }
+
 /* end grid fallback */
 
 @supports (display: grid) {
@@ -189,11 +196,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 
   .grid__item {
-   background-color: lightgray;
-   width: auto;
-   min-height: auto;
-   margin: 0;
- }
+    background-color: lightgray;
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
 
   .grid__item:last-child {
     grid-column: 3 / 3;
@@ -219,10 +226,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 /* adding responsive design elements */
-@media all and (max-width:500px) {
+@media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
   }
+
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
@@ -233,6 +241,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
+
   .grid__item:last-child {
     grid-column: 1 / 3;
     grid-row: auto / auto;
@@ -244,6 +253,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   .grid {
     grid-gap: 10px;
   }
+
   h1 {
     font-size: 22px;
   }
@@ -254,6 +264,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   from {
     color: #edc655;
   }
+
   to {
     color: #f76414;
   }
@@ -268,6 +279,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   from {
     transform: translate(0, 50px);
   }
+
   to {
     transform: translate(200px, 50px);
   }
@@ -281,6 +293,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   from {
     transform: translate(446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }
