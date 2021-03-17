@@ -202,7 +202,6 @@ button:focus,
 }
 
 /* start grid fallback */
-
 .grid__item {
   display: inline-block;
   width: 33%;
@@ -217,12 +216,14 @@ button:focus,
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    padding: 20px;
+    margin: 0;
   }
 
   .grid__item {
     background-color: lightgray;
-    padding: 15px;
+    width: auto;
+    min-height: auto;
+    margin: 0;
   }
 
   .grid__item:last-child {
