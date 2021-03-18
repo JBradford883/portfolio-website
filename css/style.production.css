@@ -341,6 +341,32 @@ button:focus,
   }
 }
 
+/* animation color change */
+@-webkit-keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
+}
+
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  -webkit-animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
+}
+
 /* position animation */
 @-webkit-keyframes cloud-move {
   from {
