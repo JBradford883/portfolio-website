@@ -242,21 +242,6 @@ button:focus,
   }
 }
 
-/* animation color change */
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-
-  to {
-    fill: #f76414;
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
 /* position animation */
 @keyframes cloud-move {
   from {
