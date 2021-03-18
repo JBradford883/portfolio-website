@@ -119,6 +119,52 @@ table {
   text-align: center;
 }
 
+form {
+  padding-top: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=submit],
+select {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 50%;
+  padding: 5px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#contact-message {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #e05a5a;
+  cursor: pointer;
+}
+
 .contact-item {
   color: var(--text-color);
   font-family: var(--primary-font);
@@ -151,7 +197,13 @@ table {
   text-align: center;
 }
 
+.town-illustration {
+  padding-top: 20px;
+}
+
 .table {
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin: auto;
   text-align: center;
 }
@@ -240,21 +292,6 @@ button:focus,
   h1 {
     font-size: 22px;
   }
-}
-
-/* animation color change */
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-
-  to {
-    fill: #f76414;
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
 }
 
 /* position animation */
