@@ -55,21 +55,31 @@
   </div>
 </div>
 
-<form action="https://formspree.io/f/mleoqnoy" method="post" id="contact-form">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" placeholder="Your First Name" required>
+<form action="https://formspree.io/f/mleoqnoy" method="post" id="register-form">
+  <div>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+  </div>
 
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" placeholder="Your Last Name" required>
+  <div>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+  </div>
 
-  <label class="standard-label" for="contact-email">E-mail:</label>
-  <input type="text" id="contact-email" name="email" placeholder="Your Email Address" required>
+  <div>
+    <label class="standard-label" for="email">E-mail:</label>
+    <input type="text" id="email" name="email" placeholder="name@address.com">
+  </div>
 
-  <label class="standard-label" for="contact-telephone">Telephone:</label>
-  <input type="text" id="contact-telephone" name="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Your Phone Number">
+  <div>
+    <label class="standard-label" for="contact-telephone">Telephone:</label>
+    <input type="text" id="contact-telephone" name="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="555-555-5555">
+  </div>
 
-  <label class="standard-label" for="contact-message">Message</label>
-  <textarea maxlength="250" id="contact-message" placeholder="Enter message with 250 characters or less" required></textarea>
+  <div>
+    <label class="standard-label" for="contact-message">Message</label>
+    <textarea maxlength="250" id="contact-message" placeholder="Enter message with 250 characters or less" required></textarea>
+  </div>
 
   <input type="submit" value="Send Message">
 </form>
@@ -84,7 +94,7 @@
 </footer>
 
 <script src="js/tota11y.min.js"></script>
-
+<script src="js/script.js"></script>
 </body>
 
 </html>

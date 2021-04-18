@@ -276,6 +276,13 @@ button:focus,
 
 /* end grid fallback */
 
+/* Error message for contact page */
+.error-message {
+  color: red;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
